@@ -1,29 +1,29 @@
 #ifndef STACKTYPE_H
 #define STACKTYPE_H
 
-const int MAX_ITEMS = 5;
+
+
 class FullStack
-// Exception class thrown
-// by Push when stack is full.
 {};
 class EmptyStack
-// Exception class thrown
-// by Pop and Top when stack is emtpy.
 {};
 template <class ItemType>
 class StackType
 {
+struct NodeType
+{
+ItemType info;
+NodeType* next;
+};
 public:
 StackType();
-bool IsFull();
-bool IsEmpty();
+~StackType();
 void Push(ItemType);
 void Pop();
 ItemType Top();
+bool IsEmpty();
+bool IsFull();
 private:
-int top;
-ItemType items[MAX_ITEMS];
+NodeType* topPtr;
 };
-#endif
-
-
+#endif// STACKTYPE_H

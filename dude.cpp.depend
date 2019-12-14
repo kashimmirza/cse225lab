@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1576301875 source:c:\kashim\dude.cpp\heaptype.cpp
+	"heaptype.h"
+
+1576301875 c:\kashim\dude.cpp\heaptype.h
+
+1576303463 source:c:\kashim\dude.cpp\main.cpp
+	<iostream>
+	"graphtype.h"
+	"graphtype.cpp"
+	"queuetype.h"
+	"queuetype.cpp"
+	"stacktype.h"
+	"stacktype.cpp"
+
+1576305889 source:c:\kashim\dude.cpp\queuetype.cpp
+	"queuetype.h"
+	<iostream>
+
+1576305889 c:\kashim\dude.cpp\queuetype.h
+
+1576303463 source:c:\kashim\dude.cpp\stacktype.cpp
+	"stacktype.h"
+	<iostream>
+
+1576302745 c:\kashim\dude.cpp\stacktype.h
+
+1576305936 source:c:\kashim\dude.cpp\graphtype.cpp
+	"graphtype.h"
+	"stacktype.h"
+	"queuetype.h"
+	<iostream>
+
+1576305889 c:\kashim\dude.cpp\graphtype.h
+	"stacktype.h"
+	"queuetype.h"
+
+1576303463 c:\kashim\dude.cpp\stacktype.cpp
+	"stacktype.h"
+	<iostream>
+
+1576305889 c:\kashim\dude.cpp\queuetype.cpp
+	"queuetype.h"
+	<iostream>
+
+1576305936 c:\kashim\dude.cpp\graphtype.cpp
+	"graphtype.h"
+	"stacktype.h"
+	"queuetype.h"
+	<iostream>
+
