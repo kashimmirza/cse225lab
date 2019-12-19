@@ -2,7 +2,6 @@
 #define STACKTYPE_H
 
 
-
 class FullStack
 {};
 class EmptyStack
@@ -26,4 +25,5 @@ bool IsFull();
 private:
 NodeType* topPtr;
 };
-#endif// STACKTYPE_H
+#endif
+ // STACKTYPE_H

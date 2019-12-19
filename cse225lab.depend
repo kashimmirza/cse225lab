@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1576758197 source:c:\users\user\desktop\cse225\cse225lab\stacktype.cpp
+	"stacktype.h"
+	<iostream>
+
+1576758197 c:\users\user\desktop\cse225\cse225lab\stacktype.h
+
+1576765747 source:c:\users\user\desktop\cse225\cse225lab\main.cpp
+	<iostream>
+	"stacktype.h"
+	"stacktype.cpp"
+	"quetype.h"
+	<iostream>
+	<bits/stdc++.h>
+	<stdlib.h>
+
+1576758197 c:\users\user\desktop\cse225\cse225lab\stacktype.cpp
+	"stacktype.h"
+	<iostream>
+
+1576762387 source:c:\users\user\desktop\cse225\cse225lab\quetype.cpp
+	"quetype.h"
+	<iostream>
+
+1576762387 c:\users\user\desktop\cse225\cse225lab\quetype.h
+

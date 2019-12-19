@@ -1,7 +1,6 @@
 #include "stacktype.h"
-
 #include <iostream>
-//#include "stacktype.h"
+
 using namespace std;
 template <class ItemType>
 StackType<ItemType>::StackType()
@@ -75,3 +74,4 @@ topPtr = topPtr->next;
 delete tempPtr;
 }
 }
+
